@@ -8,6 +8,20 @@
 </head>
 <body>
     <div id="lef">
+        
+        <nav class="menu-nav">
+            <ul>
+                <li class="btn">
+                    <a href="index.html">Acceuil</a>
+                </li>
+                <li class="btn">
+                    <a href="lego.html">Les stop motion avec des legos</a>
+                </li>
+                <li class="btn">
+                    <a href="#">Les dessins animés</a>
+                </li>
+            </ul>
+        </nav>
 
         <h1>Stop motion Studio</h1>
 
@@ -31,6 +45,27 @@
 
 body{
     background-color: rgb(41, 44, 194);
+}
+    
+nav.menu-nav ul li.btn a{
+    color: white;
+    background-color: rgb(41, 44, 194);
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav.menu-nav ul li.btn :hover{
+    color: rgb(41, 44, 194);
+    background-color: white;
+    transition: 1s;
+}
+
+nav.menu-nav ul li.btn{
+    display: inline-block;
+}
+
+nav.menu-nav ul li.btn{
+    list-style-type: none;
 }
 </style>
 
